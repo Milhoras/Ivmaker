@@ -1,26 +1,35 @@
-Este es el codigo fuente del Ivmaker 2.0
-ha trabajado por casi 12 años administrando varias publicaciones en linea.
-ha sido probada generando casi 300 paginas web diariamente sin problemas de performance.
-trabajo iniinterrumpidamente para 7 publicaciones web de alto transito. con un nivel de servicio del 99% de infalibilidad.
-
-MAneja un concepto de DBPH.
-Lo que le permite tener independencia del numero de visitas del sitio web final
-y dedicarse a gestionar la información de manera eficiente; el concepto clave en su
-diseño fue evitar el acceso a base de datos en todo sentido.
-
-Objetivo evitar problemas de servidor por incremento de concurrencia.
-
-Maneja una estructura de base de datos relacional libre, que permite ciertas licencias a la hora de la normalización 
-siempre teniendo en cuenta factores de velocidad y simplicidad de las consultas a base de datos. su estructura es gerarquica
-y no tiene taxonomia, lo que hace que el desarrollo de modulos sea un tanto complicado pues hay que conocer el modelo ER, pero
-le da fuerza a su desarrollo puesto que el mismo esfuerzo de desarrollo garantiza un menor posibilidad de errores criticos.
-
+################################################################################
+                                 CMS IVMAKER 2.0
+################################################################################
+ Este es el codigo fuente del sistema Ivmaker 2.0; su primera versión se publico el 
+ año 1997 y trabajo por  10 años administrando varias publicaciones en linea. Ha sido
+ probada generando casi 300 paginas web diariamente sin problemas de performance; se 
+ probo trabajando ininterrumpidamente para 7 publicaciones web de alto transito. Con 
+ un nivel de servicio del 99% de infalibilidad.
+ Hoy su uso ha sido descartado, por consideraciones diferentes a las tecnicas, fue 
+ desinstalado y borrado de los servidores en los que operaba hace mas de 4 años. Por lo 
+ que el nombre y su funcionalidad fueron rescatados por mi.
+ 
+Participe en el desarrollo del sistema y estoy convencido que con pequeños cambios y 
+actualizaciones todavia estaría en condiciones de ser util.
+Creo que la mejor manera de mejorar es escuchando ideas diferente, es por eso que  pongo a
+ disposición de los que estén interesados en participar; una o dos cosas podran ser aprendidas
+ de su analisis y modificación
+Su filosofia de actualización es simple: DATA->DB->ADMIN->TEMPLATE->HTML.
+Lo que le permite tener independencia del numero de visitas del sitio web finaly dedicarse a 
+gestionar la información de manera eficiente.
+El CMS siempre estuvo dentro de la red interna y enviaba actualizaciones via protocoloFTP al servidor web.
+Maneja una estructura de base de datos relacional libre, que permite ciertas licencias a la 
+hora de la normalización siempre teniendo en cuenta la velocidad, simplicidad y claridad en 
+las consultas a base de datos. su estructura es jerárquica y no fue creada bajo el concepto 
+de taxonomia, lo que hace que el desarrollo de modulos sea complicado pues hay que conocer el 
+modelo ER, pero esto mismo le da fuerza a su crecimiento ya que el mismo esfuerzo de desarrollo
+ garantiza un menor posibilidad de errores criticos.
 Le falta trabajo de frontend que podria ser considerado el punto debil del aplicativo.
-
-en proximos dias estarée subiendo el script de base de datos y los ejemplos de las plantillas
-ya que todavia tengo que retirar referencias a las publicaciones que fueron atendidas por el sistema.
-
-Espero que les sea util el sistema como lo fue para mi
+En proximos dias estare subiendo  los ejemplos de las plantillas ya que todavia tengo que retirar
+ referencias a las publicaciones que fueron atendidas por el sistema.
+ 
+Espero que el sistema les sea util y el trabajo  apasionante  como lo fue para mi
 
 Milhoras
 
