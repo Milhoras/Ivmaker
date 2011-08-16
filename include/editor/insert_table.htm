@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+	<title>Insert Table</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+			<link rel="stylesheet" href="../../Include/Css/Stilo.css" type="text/css">
+<script language="JavaScript" type="text/javascript">
+<!--
+function AddTable() {
+	var widthType = (document.tableForm.widthType.value == "pixels") ? "" : "%";
+	var html = '<table border="' + document.tableForm.border.value + '" cellpadding="' + document.tableForm.padding.value + '" ';
+	
+	html += 'cellspacing="' + document.tableForm.spacing.value + '" width="' + document.tableForm.width.value + widthType + '">\n';
+	for (var rows = 0; rows < document.tableForm.rows.value; rows++) {
+		html += "<tr>\n";
+		for (cols = 0; cols < document.tableForm.columns.value; cols++) {
+			html += "<td>&nbsp;</td>\n";
+		}
+		html+= "</tr>\n";
+	}
+	html += "</table>\n";
+	
+	window.opener.insertHTML(html);
+	window.close();
+}
+//-->
+</script>
+</head>
+
+<body style="margin: 10px; background: #ffffff;">
+
+<form name="tableForm">
+<table cellpadding="4" cellspacing="0" border="0">
+	<tr>
+		<td align="right">Filas:</td>
+		<td><input name="rows" type="text" id="rows" value="2" size="4"></td>
+		<td align="left">Columnas: <input name="columns" type="text" id="columns" value="2" size="4"></td>
+	</tr>
+	<tr>
+		<td align="right">Ancho de la Tabla:</td>
+		<td><input name="width" type="text" id="width" value="100" size="4"></td>
+		<td align="left">
+			<select name="widthType" id="widthType">
+				<option value="pixels">pixels</option>
+				<option value="percent" selected>porcentaje</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right">Ancho del Borde:</td>
+		<td><input name="border" type="text" id="border" value="1" size="4"></td>
+		<td align="left">pixels</td>
+	</tr>
+	<tr>
+		<td align="right">Cell padding:</td>
+		<td><input name="padding" type="text" id="padding" value="4" size="4"></td>
+		<td>Cell spacing: <input name="spacing" type="text" id="0" value="0" size="4"></td>
+	</tr>
+	<tr>
+		<td colspan="3" align="center">
+			<input type="button" value="Insertar Table" onClick="AddTable();" />
+			<input type="button" value="Cancelar" onClick="window.close();" />
+		</td>
+	</tr>
+</table>
+
+</form>
+
+</body>
+</html>
