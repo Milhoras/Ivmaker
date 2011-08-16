@@ -1,0 +1,28 @@
+Este es el codigo fuente del Ivmaker 2.0
+ha trabajado por casi 12 años administrando varias publicaciones en linea.
+ha sido probada generando casi 300 paginas web diariamente sin problemas de performance.
+trabajo iniinterrumpidamente para 7 publicaciones web de alto transito. con un nivel de servicio del 99% de infalibilidad.
+
+MAneja un concepto de DBPH.
+Lo que le permite tener independencia del numero de visitas del sitio web final
+y dedicarse a gestionar la información de manera eficiente; el concepto clave en su
+diseño fue evitar el acceso a base de datos en todo sentido.
+
+Objetivo evitar problemas de servidor por incremento de concurrencia.
+
+Maneja una estructura de base de datos relacional libre, que permite ciertas licencias a la hora de la normalización 
+siempre teniendo en cuenta factores de velocidad y simplicidad de las consultas a base de datos. su estructura es gerarquica
+y no tiene taxonomia, lo que hace que el desarrollo de modulos sea un tanto complicado pues hay que conocer el modelo ER, pero
+le da fuerza a su desarrollo puesto que el mismo esfuerzo de desarrollo garantiza un menor posibilidad de errores criticos.
+
+Le falta trabajo de frontend que podria ser considerado el punto debil del aplicativo.
+
+en proximos dias estarée subiendo el script de base de datos y los ejemplos de las plantillas
+ya que todavia tengo que retirar referencias a las publicaciones que fueron atendidas por el sistema.
+
+Espero que les sea util el sistema como lo fue para mi
+
+Milhoras
+
+Milhoras@msn.com
+
